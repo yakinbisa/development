@@ -66,6 +66,13 @@ body nav ul {
 			background-color: #111;
 		}
 
+		nav ul ul.menu-right {
+			float: right;
+		}
+
+
+
+
 
 /* Main */
 
@@ -84,7 +91,6 @@ body main div.pembuka {
 
 
 body main div.isi {
-	border: 1px solid red;
 	padding: 0 0 0 15px;
 }
 
@@ -93,6 +99,38 @@ body main div.isi {
 			margin: 5px 0 10px 0;
 			text-indent: 50px;
 		}
+
+		div.isi div.atas-tabel-profil {
+			border: 1px solid red;
+		}
+
+		div.isi div.atas-tabel-info {
+			border: 1px solid red;
+		}
+
+		div.isi div.atas-tabel-info p {
+			margin: 0;
+			font-size: 12px;
+		}
+
+		main div.isi > table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+				div.isi > table th {
+					background-color: #4CAF50;
+					color: white;
+				}
+
+				div.isi > table tr:nth-child(even) {
+					background-color: #f2f2f2;
+				}
+
+				div.isi th, div.isi td {
+					text-align: left;
+					padding: 8px;
+				}
 
 
 body main div.penutup {
